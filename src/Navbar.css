@@ -1,0 +1,48 @@
+.Navbar a {
+  color: var(--primary-color) !important;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.Navbar button {
+  color: aqua;
+  border: none;
+}
+
+.Navbar .logo {
+  color: var(--primary-color);
+  max-width: 60px;
+}
+
+.Navbar .navbar {
+  background-color: var(--secondary-color) !important;
+  font-family: var(--paragraph-font);
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.Navbar .vertical-line {
+  border-right: 1px solid var(--primary-color);
+  height: 28px;
+  margin: 0 35px 0 35px;
+}
+
+.about,
+.projects {
+  margin-right: 35px;
+}
+
+.Navbar .github-icon,
+.envelope-icon,
+.linkedin-icon,
+.instagram-icon {
+  color: #e79e85;
+  font-size: 14px;
+}
+
+@media (max-width: 960px) {
+  .Navbar .navbar {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
