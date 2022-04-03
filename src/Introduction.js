@@ -5,7 +5,7 @@ export default function Introduction() {
   return (
     <div className="row">
       <div className="col introduction-text">
-        <p className="hello">¡Hola!</p>
+        <p className="hello">¡HOLA!</p>
         <h1>I'm Laura Gómez</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -17,7 +17,7 @@ export default function Introduction() {
       <div className="col img-portada">
         <img
           className="img-fluid portada"
-          src="./images/laura-gomez-frontend-developer.jpg"
+          src="./images/laura-gomez-frontend-developer.png"
           alt="Laura Gomez - Frontend Developer Portfolio"
         />
       </div>
