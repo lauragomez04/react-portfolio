@@ -4,11 +4,6 @@
   letter-spacing: 2px;
 }
 
-.Navbar button {
-  color: aqua;
-  border: none;
-}
-
 .Navbar .logo {
   color: var(--primary-color);
   max-width: 60px;
@@ -32,12 +27,29 @@
   margin-right: 35px;
 }
 
+.about:hover,
+.projects:hover,
+.contact:hover {
+  background-image: url("/public/images/brush-01.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 0px 15px;
+}
+
 .Navbar .github-icon,
 .envelope-icon,
 .linkedin-icon,
 .instagram-icon {
   color: #e79e85;
   font-size: 14px;
+}
+
+.Navbar .github-icon:hover,
+.envelope-icon:hover,
+.linkedin-icon:hover,
+.instagram-icon:hover {
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 
 @media (max-width: 960px) {

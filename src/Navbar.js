@@ -30,18 +30,22 @@ export default function Navbar() {
             id="navbarNav"
           >
             <ul className="navbar-nav">
-              <li className="nav-item about">
-                <a className="nav-link active" aria-current="page" href="/">
+              <li className="nav-item">
+                <a
+                  className="nav-link active about"
+                  aria-current="page"
+                  href="/"
+                >
                   ABOUT
                 </a>
               </li>
-              <li className="nav-item projects">
-                <a className="nav-link" href="/">
+              <li className="nav-item">
+                <a className="nav-link projects" href="/">
                   PROJECTS
                 </a>
               </li>
-              <li className="nav-item contact">
-                <a className="nav-link" href="/">
+              <li className="nav-item">
+                <a className="nav-link contact" href="/">
                   CONTACT
                 </a>
               </li>
