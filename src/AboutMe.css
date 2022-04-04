@@ -1,0 +1,11 @@
+.about-img {
+  width: 400px;
+}
+
+.email-link {
+  color: var(--primary-color);
+  font-family: var(--titles-font);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}

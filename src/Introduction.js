@@ -3,7 +3,7 @@ import "./Introduction.css";
 
 export default function Introduction() {
   return (
-    <section className="container introduction">
+    <section className="introduction">
       <div className="row">
         <div className="col introduction-text">
           <p className="hello">¡HOLA!</p>
