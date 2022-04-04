@@ -1,16 +1,14 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import Introduction from "./Introduction";
+import AboutMe from "./AboutMe";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <Navbar />
-      </div>
-      <div className="container introduction">
-        <Introduction />
-      </div>
+      <Navbar />
+      <Introduction />
+      <AboutMe />
     </div>
   );
 }
