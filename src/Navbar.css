@@ -27,13 +27,37 @@
   margin-right: 35px;
 }
 
-.about:hover,
-.projects:hover,
-.contact:hover {
-  background-image: url("/public/images/brush-01.png");
-  background-repeat: no-repeat;
-  background-size: 100px;
-  background-position: 0px 15px;
+.about,
+.projects,
+.contact {
+  position: relative;
+}
+
+.about::after,
+.projects::after,
+.contact::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 11px;
+  width: 100%;
+  height: 8px;
+  background: radial-gradient(
+    circle,
+    rgba(231, 158, 133, 0.2) 62%,
+    rgba(251, 245, 241, 1) 100%
+  );
+  border-radius: 0.8em 0.3em;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.about:hover::after,
+.projects:hover::after,
+.contact:hover::after {
+  transform: scaleX(1);
 }
 
 .Navbar .github-icon,
@@ -56,5 +80,16 @@
   .Navbar .navbar {
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .Navbar .vertical-line {
+    display: none;
+  }
+
+  .Navbar .github-icon,
+  .envelope-icon,
+  .linkedin-icon,
+  .instagram-icon {
+    padding: 3px;
   }
 }

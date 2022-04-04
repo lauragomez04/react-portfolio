@@ -50,44 +50,46 @@ export default function Navbar() {
                 </a>
               </li>
               <span className="vertical-line"></span>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://github.com/lauragomez04"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i class="bi bi-github github-icon"></i>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="mailto:lauragomez.codes@gmail.com"
-                >
-                  <i class="bi bi-envelope envelope-icon"></i>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://www.linkedin.com/in/lauragomezblanco/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i class="bi bi-linkedin linkedin-icon"></i>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://www.instagram.com/laugom0904/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i class="bi bi-instagram instagram-icon"></i>
-                </a>
-              </li>
+              <span className="d-flex flex-row navbar-icons">
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="https://github.com/lauragomez04"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i class="bi bi-github github-icon"></i>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="mailto:lauragomez.codes@gmail.com"
+                  >
+                    <i class="bi bi-envelope envelope-icon"></i>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="https://www.linkedin.com/in/lauragomezblanco/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i class="bi bi-linkedin linkedin-icon"></i>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="https://www.instagram.com/laugom0904/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i class="bi bi-instagram instagram-icon"></i>
+                  </a>
+                </li>
+              </span>
             </ul>
           </div>
         </div>
