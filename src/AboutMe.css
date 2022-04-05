@@ -1,11 +1,22 @@
 .about-img {
-  width: 400px;
+  max-width: 400px;
 }
 
 .email-link {
   color: var(--primary-color);
   font-family: var(--titles-font);
-  font-size: 14px;
   letter-spacing: 1px;
+  transform: rotate(-90deg);
   text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--icon-color);
+  transition: all 200ms ease-in-out;
+}
+
+.about-img,
+.email-link {
+  position: relative;
+  right: 30px;
 }

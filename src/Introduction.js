@@ -5,10 +5,10 @@ export default function Introduction() {
   return (
     <section className="introduction">
       <div className="row">
-        <div className="col introduction-text">
+        <div className="col-sm introduction-text">
           <p className="hello">¡HOLA!</p>
           <h1>I'm Laura Gómez</h1>
-          <h2>FRONT-END DEVELOPER / DESIGNER BASED IN LISBON</h2>
+          <h2>FRONT-END DEVELOPER / DESIGNER / DIGITAL MARKETER</h2>
           <p>
             I'm a front-end developer with a background in product design and
             digital marketing. I’m here to help you bring your ideas to life by
@@ -16,9 +16,9 @@ export default function Introduction() {
             the magic of coding.
           </p>
         </div>
-        <div className="col img-portada">
+        <div className="col-sm img-portada">
           <img
-            className="img-fluid portada"
+            className="img-fluid"
             src="./images/laura-gomez-frontend-developer.png"
             alt="Laura Gomez - Frontend Developer Portfolio"
           />

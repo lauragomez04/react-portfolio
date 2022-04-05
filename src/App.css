@@ -6,3 +6,15 @@
   --secondary-color: #fbf5f0;
   --icon-color: #e79e85;
 }
+
+.container-fluid {
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+}
+
+@media (max-width: 960px) {
+  .container-fluid {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}

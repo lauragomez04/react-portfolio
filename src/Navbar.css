@@ -12,8 +12,6 @@
 .Navbar .navbar {
   background-color: var(--secondary-color) !important;
   font-family: var(--paragraph-font);
-  padding-left: 55px;
-  padding-right: 55px;
 }
 
 .Navbar .vertical-line {
@@ -77,11 +75,6 @@
 }
 
 @media (max-width: 960px) {
-  .Navbar .navbar {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
   .Navbar .vertical-line {
     display: none;
   }
