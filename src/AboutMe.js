@@ -5,11 +5,10 @@ export default function AboutMe() {
   return (
     <section className="about-me">
       <div className="row">
-        <div className="col d-flex align-items-center">
+        <div className="col d-flex align-items-center image-email">
           <a className="email-link" href="mailto:lauragomez.codes@gmail.com">
             lauragomez.codes@gmail.com
           </a>
-
           <img
             className="img-fluid about-img"
             src="./images/Laura-in-Lisbon.jpg"
@@ -17,7 +16,21 @@ export default function AboutMe() {
           />
         </div>
         <div className="col">
-          <h3>About Me</h3>
+          <h2 className="text-center about-title">About Me</h2>
+          <p className="about-text">
+            After supporting projects in different sectors as a product designer
+            and digital marketer, I realized that front-end development is where
+            I feel is the core of solution creation, focused on meeting actual
+            needs, solving problems, and creating pleasant experiences that give
+            me satisfaction. I’m a meticulous and curious, and so drawn to this
+            field where there is always more to learn. I’m interested in joining
+            a team where I can contribute and learn.
+            <br />
+            <br />
+            When I’m not coding, I’m exploring hidden corners of Lisbon, looking
+            for dolphins along the Tejo River, or embroidering, my other kind of
+            coding.
+          </p>
         </div>
       </div>
     </section>

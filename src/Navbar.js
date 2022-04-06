@@ -58,7 +58,7 @@ export default function Navbar() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="bi bi-github github-icon"></i>
+                    <i className="bi bi-github github-icon"></i>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -66,7 +66,7 @@ export default function Navbar() {
                     className="nav-link"
                     href="mailto:lauragomez.codes@gmail.com"
                   >
-                    <i class="bi bi-envelope envelope-icon"></i>
+                    <i className="bi bi-envelope envelope-icon"></i>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -76,7 +76,7 @@ export default function Navbar() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="bi bi-linkedin linkedin-icon"></i>
+                    <i className="bi bi-linkedin linkedin-icon"></i>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -86,7 +86,7 @@ export default function Navbar() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="bi bi-instagram instagram-icon"></i>
+                    <i className="bi bi-instagram instagram-icon"></i>
                   </a>
                 </li>
               </span>
