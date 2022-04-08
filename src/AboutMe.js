@@ -11,7 +11,7 @@ export default function AboutMe() {
           </a>
           <img
             className="img-fluid about-img"
-            src="./images/Laura-in-Lisbon.jpg"
+            src="./images/about-me-img.jpg"
             alt="about me"
           />
         </div>
@@ -31,6 +31,14 @@ export default function AboutMe() {
             for dolphins along the Tejo River, or embroidering, my other kind of
             coding.
           </p>
+          <div className="about-leaf">
+            <img src="./images/about-me-leaf.svg" alt="about me leaf" />
+          </div>
+        </div>
+        <div className="text-center">
+          <a href="/" className="btn about-button">
+            CHECK OUT MY PROJECTS
+          </a>
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@
 .email-link {
   position: relative;
   left: -115px;
-  top: 182px;
+  top: 64px;
 }
 
 .about-text {
@@ -46,4 +46,26 @@
   background-image: url(/public/images/spots.svg);
   background-repeat: no-repeat;
   background-size: 380px;
+}
+
+.about-button {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px !important;
+  position: relative;
+  bottom: 140px;
+}
+
+.about-leaf {
+  margin-bottom: -98px;
+  max-width: 100%;
+  position: relative;
+  bottom: 116px;
+  left: 72px;
+  width: 492px;
+  z-index: -1;
 }
