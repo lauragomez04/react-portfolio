@@ -46,7 +46,6 @@
     rgba(251, 245, 241, 1) 100%
   );
   border-radius: 0.8em 0.3em;
-
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 250ms ease-in;

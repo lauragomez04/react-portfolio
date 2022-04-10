@@ -4,7 +4,7 @@
   font-size: 64px;
   position: relative;
   top: 36px;
-  margin-top: 114px;
+  margin-top: 92px;
 }
 
 .email-link {
@@ -21,7 +21,21 @@
   transition: all 200ms ease-in-out;
 }
 
+.email-link::after {
+  background: var(--primary-color);
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 135px;
+  right: 50%;
+  transform-origin: right;
+  transform: rotate(90deg);
+  width: 90px;
+}
+
 .about-img {
+  width: 100%;
   width: 500px;
   z-index: -1;
 }
@@ -30,7 +44,7 @@
 .email-link {
   position: relative;
   left: -115px;
-  top: 64px;
+  top: 272px;
 }
 
 .about-text {
@@ -57,15 +71,40 @@
   letter-spacing: 1px;
   padding: 16px !important;
   position: relative;
-  bottom: 140px;
+  bottom: 240px;
+}
+
+.about-button:hover {
+  background-color: var(--icon-color) !important;
+  border-color: var(--icon-color) !important;
+  color: white;
+  transition: all 200ms ease-in-out;
 }
 
 .about-leaf {
+  display: block;
   margin-bottom: -98px;
-  max-width: 100%;
   position: relative;
-  bottom: 116px;
-  left: 72px;
-  width: 492px;
+  bottom: 142px;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 480px;
   z-index: -1;
+}
+
+@media (max-width: 960px) {
+  .about-title {
+    margin-top: 52px;
+  }
+
+  .about-button {
+    bottom: 156px;
+  }
+
+  .about-leaf {
+    width: 200px;
+    margin-right: -10px;
+    transform: rotate(-20deg);
+    z-index: 1;
+  }
 }
