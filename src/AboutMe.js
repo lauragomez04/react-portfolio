@@ -18,7 +18,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="col">
-          <h2 className="text-center about-title">About Me</h2>
+          <h2 className="text-center about-title title">About Me</h2>
           <p className="about-text">
             After supporting projects in different sectors as a product designer
             and digital marketer, I realized that front-end development is where

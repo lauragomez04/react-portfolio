@@ -12,6 +12,12 @@
   padding-right: 55px !important;
 }
 
+.title {
+  color: var(--primary-color);
+  font-family: var(--titles-font);
+  font-size: 64px;
+}
+
 @media (max-width: 960px) {
   .container-fluid {
     padding-left: 30px !important;

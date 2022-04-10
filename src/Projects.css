@@ -1,0 +1,9 @@
+.Projects h3 {
+  color: var(--primary-color);
+  font-family: var(--titles-font);
+  font-size: 48px;
+}
+
+.projects-title {
+  margin-bottom: 96px;
+}

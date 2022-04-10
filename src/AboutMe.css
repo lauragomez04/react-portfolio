@@ -1,7 +1,4 @@
 .about-title {
-  color: var(--primary-color);
-  font-family: var(--titles-font);
-  font-size: 64px;
   position: relative;
   top: 36px;
   margin-top: 92px;
@@ -69,6 +66,7 @@
   font-family: var(--paragraph-font);
   font-size: 18px;
   letter-spacing: 1px;
+  margin-bottom: -28px;
   padding: 16px !important;
   position: relative;
   bottom: 240px;

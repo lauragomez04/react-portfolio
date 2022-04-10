@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Introduction from "./Introduction";
 import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main className="container-fluid">
         <Introduction />
         <AboutMe />
+        <Projects />
       </main>
     </div>
   );
