@@ -1,9 +1,37 @@
+.Projects .projects-heading {
+  margin-bottom: 96px;
+}
+
 .Projects h3 {
   color: var(--primary-color);
   font-family: var(--titles-font);
+  font-size: 36px;
+}
+
+.Projects .number {
   font-size: 48px;
 }
 
-.projects-title {
-  margin-bottom: 96px;
+.Projects img {
+  border-radius: 4px;
+  margin-bottom: 28px;
+  position: relative;
+  bottom: 28px;
+  z-index: -1;
+}
+
+.project-title {
+  position: relative;
+}
+
+.project-title::before {
+  background: var(--primary-color);
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  right: 50%;
+  transform-origin: right;
+  transform: rotate(90deg);
+  width: 68px;
 }
