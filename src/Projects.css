@@ -20,10 +20,6 @@
   z-index: -1;
 }
 
-.project-title {
-  position: relative;
-}
-
 .project-title::before {
   background: var(--primary-color);
   content: "";
@@ -34,4 +30,17 @@
   transform-origin: right;
   transform: rotate(90deg);
   width: 68px;
+}
+
+.project-title {
+  position: relative;
+}
+
+.Projects p {
+  color: var(--paragraph-color);
+  font-family: var(--paragraph-font);
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 200%;
+  margin-top: 20px;
 }
