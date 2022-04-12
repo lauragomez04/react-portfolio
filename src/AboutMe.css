@@ -45,7 +45,7 @@
 }
 
 .about-text {
-  background: rgba(234, 206, 180, 0.2);
+  background: var(--background-color);
   font-family: var(--paragraph-font);
   font-size: 14px;
   letter-spacing: 1px;

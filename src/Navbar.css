@@ -10,7 +10,7 @@
 }
 
 .Navbar .navbar {
-  background-color: var(--secondary-color) !important;
+  background-color: var(--background-color) !important;
   font-family: var(--paragraph-font);
 }
 

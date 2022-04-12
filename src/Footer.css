@@ -1,0 +1,31 @@
+.Footer {
+  background-color: var(--background-color);
+  margin-top: 244px;
+  padding-top: 59px;
+  padding-bottom: 37px;
+}
+
+.Footer a {
+  color: var(--primary-color);
+  font-family: var(--titles-font);
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-top: 31px;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: var(--icon-color);
+  transition: all 200ms ease-in-out;
+}
+
+.Footer ul {
+  padding: 0px;
+  margin-top: 35px;
+}
+
+.Footer li {
+  color: var(--primary-color);
+  padding-right: 24px;
+  display: inline;
+}

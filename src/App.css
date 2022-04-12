@@ -3,8 +3,15 @@
   --paragraph-font: "Raleway", sans-serif;
   --paragraph-color: #3d3d3d;
   --primary-color: #bb5a5a;
-  --secondary-color: #fbf5f0;
+  --background-color: rgba(234, 206, 180, 0.2);
   --icon-color: #e79e85;
+}
+
+.App p {
+  color: #5e5d5d;
+  font-family: var(--paragraph-font);
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 .container-fluid {
