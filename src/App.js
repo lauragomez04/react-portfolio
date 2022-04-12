@@ -16,7 +16,16 @@ function App() {
       </main>
       <footer>
         <Footer />
-        <p className="text-center mt-4">DESIGNED AND BUILT BY LAURA GÓMEZ</p>
+        <p className="text-center mt-4 signature">
+          DESIGNED AND BUILT BY{" "}
+          <a
+            href="https://github.com/lauragomez04/react-portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LAURA GÓMEZ
+          </a>
+        </p>
       </footer>
     </div>
   );

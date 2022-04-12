@@ -7,11 +7,21 @@
   --icon-color: #e79e85;
 }
 
-.App p {
+.App .signature {
   color: #5e5d5d;
   font-family: var(--paragraph-font);
   font-size: 12px;
   letter-spacing: 2px;
+}
+
+.signature a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.signature a:hover {
+  color: var(--icon-color);
+  transition: all 200ms ease-in-out;
 }
 
 .container-fluid {

@@ -13,17 +13,29 @@ export default function Footer() {
       </a>
       <ul className="text-center">
         <li>
-          <a href="https://github.com/lauragomez04">
+          <a
+            href="https://github.com/lauragomez04"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-github"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/lauragomezblanco/">
+          <a
+            href="https://www.linkedin.com/in/lauragomezblanco/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/laugom0904/">
+          <a
+            href="https://www.instagram.com/laugom0904/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-instagram"></i>
           </a>
         </li>
