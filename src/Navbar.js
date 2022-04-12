@@ -34,13 +34,13 @@ export default function Navbar() {
                 <a
                   className="nav-link active about"
                   aria-current="page"
-                  href="/"
+                  href="#about"
                 >
                   ABOUT
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link projects" href="/">
+                <a className="nav-link projects" href="#projects">
                   PROJECTS
                 </a>
               </li>
