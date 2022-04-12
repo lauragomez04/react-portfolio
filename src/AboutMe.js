@@ -34,7 +34,7 @@ export default function AboutMe() {
             coding.
           </p>
           <div className="about-leaf">
-            <img src="./images/about-me-leaf.svg" alt="about me leaf" />
+            <img src="./images/about-me-leaf.svg" alt="" />
           </div>
         </div>
         <div className="text-center">

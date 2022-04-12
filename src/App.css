@@ -7,6 +7,13 @@
   --icon-color: #e79e85;
 }
 
+.App footer {
+  background-image: url(/public/images/spots.svg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
 .App .signature {
   color: #5e5d5d;
   font-family: var(--paragraph-font);
