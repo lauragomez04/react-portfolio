@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 className="text-center title projects-heading">Projects</h2>
       <div className="row">
         {projectsData.map((project) => (
-          <div className="col project-1">
+          <div className="col-sm project-1">
             <h3 className="text-center number">{project.number}</h3>
             <img
               className="img-fluid"

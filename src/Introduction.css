@@ -1,4 +1,6 @@
-.hello {
+/* left column styles */
+
+.greeting {
   font-size: 16px;
   margin-top: 100px;
   margin-bottom: 10px;
@@ -29,13 +31,19 @@
   opacity: 70%;
 }
 
+.introduction-text {
+  margin-right: 52px;
+}
+
+/* right column styles */
+
 .img-portada img {
   max-width: 100%;
   width: 500px;
 }
 
 @media (max-width: 960px) {
-  .hello {
+  .greeting {
     font-size: 12px;
     margin-top: 30px;
   }
@@ -51,6 +59,10 @@
 
   .introduction-text p {
     font-size: 14px;
+  }
+
+  .introduction-text {
+    margin-right: 0px;
   }
 
   .img-portada img {

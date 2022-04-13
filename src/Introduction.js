@@ -3,10 +3,10 @@ import "./Introduction.css";
 
 export default function Introduction() {
   return (
-    <section className="introduction">
+    <section className="Introduction">
       <div className="row">
         <div className="col-sm introduction-text">
-          <p className="hello">¡HOLA!</p>
+          <p className="greeting">¡HOLA!</p>
           <h1>I'm Laura Gómez</h1>
           <h2>FRONT-END DEVELOPER / DESIGNER / DIGITAL MARKETER</h2>
           <p>

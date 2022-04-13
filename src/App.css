@@ -9,7 +9,7 @@
 
 .App footer {
   background-image: url(/public/images/spots.svg);
-  background-position: bottom left;
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 300px;
 }
