@@ -2,10 +2,15 @@
   margin-bottom: 96px;
 }
 
+.project-link {
+  text-decoration: none;
+}
+
 .Projects h3 {
   color: var(--primary-color);
   font-family: var(--titles-font);
   font-size: 36px;
+  position: relative;
 }
 
 .Projects .number {
@@ -32,8 +37,26 @@
   width: 68px;
 }
 
-.project-title {
-  position: relative;
+.project-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 28px;
+  width: 100%;
+  height: 20px;
+  background: radial-gradient(
+    circle,
+    rgba(231, 158, 133, 0.2) 62%,
+    rgba(251, 245, 241, 1) 100%
+  );
+  border-radius: 0.8em 0.3em;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.project-title:hover::after {
+  transform: scaleX(1);
 }
 
 .Projects p {

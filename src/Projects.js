@@ -10,12 +10,14 @@ export default function Projects() {
         {projectsData.map((project) => (
           <div className="col-sm project-1">
             <h3 className="text-center number">{project.number}</h3>
-            <img
-              className="img-fluid"
-              src={project.image}
-              alt="weather app project"
-            />
-            <h3 className="text-center project-title">{project.title}</h3>
+            <a className="project-link" href="/">
+              <img
+                className="img-fluid"
+                src={project.image}
+                alt="weather app project"
+              />
+              <h3 className="text-center project-title">{project.title}</h3>
+            </a>
             <p className="text-center">{project.tech}</p>
           </div>
         ))}
