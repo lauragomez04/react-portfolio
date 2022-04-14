@@ -1,7 +1,6 @@
-.Navbar a {
-  color: var(--primary-color) !important;
-  font-size: 14px;
-  letter-spacing: 2px;
+.Navbar .navbar {
+  background-color: var(--background-color) !important;
+  font-family: var(--paragraph-font);
 }
 
 .Navbar .logo {
@@ -9,9 +8,10 @@
   max-width: 60px;
 }
 
-.Navbar .navbar {
-  background-color: var(--background-color) !important;
-  font-family: var(--paragraph-font);
+.Navbar a {
+  color: var(--primary-color) !important;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 .Navbar .vertical-line {

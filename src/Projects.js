@@ -8,13 +8,13 @@ export default function Projects() {
       <h2 className="text-center title projects-heading">Projects</h2>
       <div className="row">
         {projectsData.map((project) => (
-          <div className="col-sm project-1">
+          <div className="col-sm project">
             <h3 className="text-center number">{project.number}</h3>
             <a className="project-link" href="/">
               <img
                 className="img-fluid"
                 src={project.image}
-                alt="weather app project"
+                alt={project.title}
               />
               <h3 className="text-center project-title">{project.title}</h3>
             </a>

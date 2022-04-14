@@ -22,7 +22,13 @@
   margin-bottom: 28px;
   position: relative;
   bottom: 28px;
+  transform: scale(1);
+  transition: all 0.3s;
   z-index: -1;
+}
+
+.project:hover img {
+  transform: scale(1.1);
 }
 
 .project-title::before {
@@ -40,9 +46,9 @@
 .project-title::after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 52px;
   top: 28px;
-  width: 100%;
+  width: 74%;
   height: 20px;
   background: radial-gradient(
     circle,
@@ -53,9 +59,10 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 250ms ease-in;
+  z-index: -1;
 }
 
-.project-title:hover::after {
+.project:hover .project-title:after {
   transform: scaleX(1);
 }
 

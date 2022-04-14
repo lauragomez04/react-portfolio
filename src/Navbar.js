@@ -31,11 +31,7 @@ export default function Navbar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a
-                  className="nav-link active about"
-                  aria-current="page"
-                  href="#about"
-                >
+                <a className="nav-link about" aria-current="page" href="#about">
                   ABOUT
                 </a>
               </li>
