@@ -14,16 +14,26 @@
   letter-spacing: 2px;
 }
 
+.about,
+.projects {
+  margin-right: 35px;
+}
+
 .Navbar .vertical-line {
   border-right: 1px solid var(--primary-color);
   height: 28px;
   margin: 0 35px 0 35px;
 }
 
-.about,
-.projects {
-  margin-right: 35px;
+.Navbar .github-icon,
+.envelope-icon,
+.linkedin-icon,
+.instagram-icon {
+  color: #e79e85;
+  font-size: 14px;
 }
+
+/* hover effects */
 
 .about,
 .projects,
@@ -49,20 +59,13 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 250ms ease-in;
+  z-index: -1;
 }
 
 .about:hover::after,
 .projects:hover::after,
 .contact:hover::after {
   transform: scaleX(1);
-}
-
-.Navbar .github-icon,
-.envelope-icon,
-.linkedin-icon,
-.instagram-icon {
-  color: #e79e85;
-  font-size: 14px;
 }
 
 .Navbar .github-icon:hover,
