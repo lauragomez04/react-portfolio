@@ -1,7 +1,13 @@
-.about-title {
-  position: relative;
-  top: 36px;
-  margin-top: 92px;
+.AboutMe {
+  margin-top: 20px;
+}
+
+/* left column styles */
+
+.image-email {
+  background-image: url(/public/images/spots.svg);
+  background-repeat: no-repeat;
+  background-size: 380px;
 }
 
 .email-link {
@@ -44,6 +50,14 @@
   top: 272px;
 }
 
+/* right column styles */
+
+.about-title {
+  position: relative;
+  top: 36px;
+  margin-top: 92px;
+}
+
 .about-text {
   background: var(--background-color);
   font-family: var(--paragraph-font);
@@ -53,10 +67,15 @@
   padding: 63px;
 }
 
-.image-email {
-  background-image: url(/public/images/spots.svg);
-  background-repeat: no-repeat;
-  background-size: 380px;
+.about-leaf {
+  display: block;
+  margin-bottom: -98px;
+  position: relative;
+  bottom: 142px;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 480px;
+  z-index: -1;
 }
 
 .about-button {
@@ -77,17 +96,6 @@
   border-color: var(--icon-color) !important;
   color: white;
   transition: all 200ms ease-in-out;
-}
-
-.about-leaf {
-  display: block;
-  margin-bottom: -98px;
-  position: relative;
-  bottom: 142px;
-  max-width: 100%;
-  margin: 0 auto;
-  width: 480px;
-  z-index: -1;
 }
 
 @media (max-width: 960px) {

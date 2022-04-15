@@ -7,6 +7,19 @@
   --icon-color: #e79e85;
 }
 
+.container-fluid {
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+}
+
+/* styles for main titles */
+
+.title {
+  color: var(--primary-color);
+  font-family: var(--titles-font);
+  font-size: 64px;
+}
+
 .App footer {
   background-image: url(/public/images/spots.svg);
   background-position: bottom right;
@@ -29,17 +42,6 @@
 .signature a:hover {
   color: var(--icon-color);
   transition: all 200ms ease-in-out;
-}
-
-.container-fluid {
-  padding-left: 55px !important;
-  padding-right: 55px !important;
-}
-
-.title {
-  color: var(--primary-color);
-  font-family: var(--titles-font);
-  font-size: 64px;
 }
 
 @media (max-width: 960px) {

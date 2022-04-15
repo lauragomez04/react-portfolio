@@ -16,7 +16,7 @@ export default function Introduction() {
             the magic of coding.
           </p>
         </div>
-        <div className="col-sm img-portada">
+        <div className="col-sm img-portada text-center">
           <img
             className="img-fluid"
             src="./images/laura-gomez-frontend-developer.png"
