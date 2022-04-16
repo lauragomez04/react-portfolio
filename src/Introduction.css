@@ -27,12 +27,24 @@
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 1px;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   opacity: 70%;
 }
 
 .introduction-text {
   margin-right: 52px;
+}
+
+.deco-brush {
+  background-image: url(/public/images/decorative-brush.svg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  position: relative;
+  left: 220px;
+  margin-bottom: 36px;
+  transform: rotate(-28deg);
+  height: 296px;
+  width: 160px;
 }
 
 /* right column styles */
@@ -67,5 +79,9 @@
 
   .img-portada img {
     margin-top: 20px;
+  }
+
+  .deco-brush {
+    display: none;
   }
 }

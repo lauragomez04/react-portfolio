@@ -15,6 +15,7 @@ export default function Introduction() {
             building beautiful, functional, and responsive user interfaces with
             the magic of coding.
           </p>
+          <div className="deco-brush"></div>
         </div>
         <div className="col-sm img-portada text-center">
           <img
