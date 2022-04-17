@@ -39,7 +39,7 @@ export default function AboutMe() {
         </div>
         <div className="text-center">
           <a href="/" className="btn about-button">
-            CHECK OUT MY PROJECTS
+            READ MY RESUME
           </a>
         </div>
       </div>

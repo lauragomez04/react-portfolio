@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { projectsData } from "./ProjectsData";
+import WeatherModal from "./WeatherModal";
 
 export default function Projects() {
   return (
@@ -11,19 +12,29 @@ export default function Projects() {
           return (
             <div className="col-sm project" key={index}>
               <h3 className="text-center number">{project.number}</h3>
-              <a className="project-link" href="/">
-                <img
-                  className="img-fluid"
-                  src={project.image}
-                  alt={project.title}
-                />
-                <h3 className="text-center project-title">{project.title}</h3>
-              </a>
+
+              <img
+                className="img-fluid"
+                src={project.image}
+                alt={project.title}
+              />
+
+              <button
+                type="button"
+                class="btn  project-button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <h3 className="text-center project-title project-link">
+                  {project.title}
+                </h3>
+              </button>
               <p className="text-center">{project.tech}</p>
             </div>
           );
         })}
       </div>
+      <WeatherModal />
     </section>
   );
 }
