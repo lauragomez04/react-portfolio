@@ -28,7 +28,11 @@ export default function ProjectsModal(props) {
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-sm-6">
-                    <img src={props.data.image} alt={props.data.title} />
+                    <img
+                      className="img-fluid"
+                      src={props.data.image}
+                      alt={props.data.title}
+                    />
                   </div>
                   <div className="col-sm-6">
                     <p>{props.data.description}</p>
