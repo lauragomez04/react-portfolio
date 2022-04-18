@@ -14,8 +14,10 @@
 }
 
 .Projects img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
   border-radius: 4px;
-  margin-bottom: 28px;
   position: relative;
   bottom: 28px;
   transform: scale(1);
@@ -30,7 +32,12 @@
 .Projects .project-button {
   display: block;
   margin: 0 auto;
+  padding-bottom: 0px;
   text-align: center;
+}
+
+.Projects .project-button:focus {
+  box-shadow: none;
 }
 
 .project-title::before {

@@ -1,0 +1,9 @@
+.modal-icons {
+  color: var(--primary-color);
+  padding-right: 12px;
+}
+
+.modal-icons:hover {
+  color: var(--icon-color);
+  transition: all 200ms ease-in-out;
+}

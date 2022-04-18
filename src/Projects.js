@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { projectsData } from "./ProjectsData";
-import WeatherModal from "./WeatherModal";
+import ProjectsModal from "./ProjectsModal";
 
 export default function Projects() {
   return (
@@ -21,20 +21,20 @@ export default function Projects() {
 
               <button
                 type="button"
-                class="btn  project-button"
+                className="btn  project-button"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target={"#" + project.id}
               >
                 <h3 className="text-center project-title project-link">
                   {project.title}
                 </h3>
               </button>
-              <p className="text-center">{project.tech}</p>
+              <p className="text-center">TECH STACK: {project.tech}</p>
+              <ProjectsModal data={project} />
             </div>
           );
         })}
       </div>
-      <WeatherModal />
     </section>
   );
 }
