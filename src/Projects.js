@@ -14,7 +14,7 @@ export default function Projects() {
               <h3 className="text-center number">{project.number}</h3>
 
               <img
-                className="img-fluid"
+                className="img-fluid project-image"
                 src={project.image}
                 alt={project.title}
               />

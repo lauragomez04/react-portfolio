@@ -6,7 +6,7 @@ export const projectsData = [
     title: "Weather App",
     tech: "REACT, BOOTSTRAP, OPEN WEATHER API, NETLIFY",
     description:
-      "After creating this weather app in plain javascript, css, and html I translated to react, and did this and that and whatever",
+      "This Weather Web App is a React application I built from scratch after building the first iteration in HTML, CSS and Javascript. Re-building this .. ",
     link: "https://weatherappinreact.netlify.app/",
     github: "https://github.com/lauragomez04/weather-react",
   },

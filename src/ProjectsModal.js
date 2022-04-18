@@ -3,7 +3,7 @@ import "./ProjectsModal.css";
 
 export default function ProjectsModal(props) {
   return (
-    <div>
+    <div className="ProjectsModal">
       <div
         className="modal fade"
         id={props.data.id}
@@ -25,11 +25,11 @@ export default function ProjectsModal(props) {
               ></button>
             </div>
             <div className="modal-body">
-              <div className="container-fluid">
+              <div className="container-fluid modal-container p-0">
                 <div className="row">
                   <div className="col-sm-6">
                     <img
-                      className="img-fluid"
+                      className="img-fluid modal-image pe-2"
                       src={props.data.image}
                       alt={props.data.title}
                     />
