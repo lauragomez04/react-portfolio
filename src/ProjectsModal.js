@@ -35,7 +35,11 @@ export default function ProjectsModal(props) {
                     />
                   </div>
                   <div className="col-sm-6">
-                    <p>{props.data.description}</p>
+                    <p className="modal-text">
+                      {props.data.description} <br />
+                      <br /> View repository or visit the live site:
+                    </p>
+
                     <a
                       className="modal-icons"
                       href={props.data.github}
@@ -59,10 +63,10 @@ export default function ProjectsModal(props) {
             <div className="modal-footer">
               <button
                 type="button"
-                className="btn btn-secondary"
+                className="btn btn-secondary close-btn"
                 data-bs-dismiss="modal"
               >
-                Close
+                CLOSE
               </button>
             </div>
           </div>

@@ -1,8 +1,21 @@
 .modal-icons {
   color: var(--primary-color);
+  font-size: 20px;
   padding-right: 12px;
 }
 .modal-icons:hover {
   color: var(--icon-color);
   transition: all 200ms ease-in-out;
+}
+
+.modal-body .modal-text {
+  font-size: 14px;
+}
+
+.close-btn {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+  font-family: var(--paragraph-font);
+  font-size: 14px !important;
+  letter-spacing: 1px;
 }

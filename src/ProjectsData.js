@@ -3,10 +3,10 @@ export const projectsData = [
     number: "01",
     id: "weather",
     image: "./images/weather-app-project.jpg",
-    title: "Weather App",
+    title: "Presagio App",
     tech: "REACT, BOOTSTRAP, OPEN WEATHER API, NETLIFY",
     description:
-      "This Weather Web App is a React application I built from scratch after building the first iteration in HTML, CSS and Javascript. Re-building this .. ",
+      "Presagio App is a responsive weather web app I built from scratch in React to learn how to use this library. I used the OpenWeatherMap API to display the daily forecast for five days for a specific location. Illustrations change according to the weather condition results.",
     link: "https://weatherappinreact.netlify.app/",
     github: "https://github.com/lauragomez04/weather-react",
   },
