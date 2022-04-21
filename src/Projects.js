@@ -15,7 +15,7 @@ export default function Projects() {
 
               <img
                 className="img-fluid project-image"
-                src={project.image}
+                src={project.cover}
                 alt={project.title}
               />
 
