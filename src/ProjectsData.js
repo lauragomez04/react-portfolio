@@ -27,7 +27,7 @@ export const projectsData = [
     purpose:
       "I built this Dictionary app to improve my skills in React and using APIs. I started designing this project for a SheCodes workshop in Invision and then added more detail using Figma. This time I wanted to use a custom hook made by another developer to enrich my Dictionary app.",
     stack:
-      "I used React to continue improving my skills in this library,  its simplicity, and the possibility of using libraries built by other developers. In this project, I used use-sound by Josh Comeau to play the word phonetics mp3 file from the Google Dictionary API. I used Bootstrap to make this app responsive in all devices and for the icons I needed.",
+      "I used React to continue improving my skills in this library,  its simplicity, and the possibility of using libraries built by other developers. In this project, I used use-sound by Josh Comeau to play the word phonetics mp3 file from the Google Dictionary API. I used Bootstrap to make this app responsive on all devices and for the icons I needed.",
     link: "https://dictionary-project-react.netlify.app/",
     github: "https://github.com/lauragomez04/react-dictionary",
   },

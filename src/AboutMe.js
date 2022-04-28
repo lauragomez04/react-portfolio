@@ -20,18 +20,28 @@ export default function AboutMe() {
         <div className="col">
           <h2 className="text-center about-title title">About Me</h2>
           <p className="about-text">
-            After supporting projects in different sectors as a product designer
-            and digital marketer, I realized that front-end development is where
-            I feel is the core of solution creation, focused on meeting actual
-            needs, solving problems, and creating pleasant experiences that give
-            me satisfaction. I’m a meticulous and curious, and so drawn to this
-            field where there is always more to learn. I’m interested in joining
-            a team where I can contribute and learn.
+            My interest in web development began while supporting projects in
+            different sectors as a product designer and digital marketer. I used
+            to plan and execute digital marketing strategies, so I constantly
+            edited and built websites with page builders for WordPress. I loved
+            this creative part of my job, but always wished I knew how to code
+            as my creativity was often limited by the tools available to me.
+            <br />
+            <br />I stopped wishing, made it happen, and got hooked. I realized
+            front-end development was the perfect way to combine my soft skills,
+            hard skills, and passion for creating and bringing designs to life.
+            I’m meticulous, curious, and captivated by this field where there is
+            always more to learn.
             <br />
             <br />
-            When I’m not coding, I’m exploring hidden corners of Lisbon, looking
+            When I'm not coding, I'm exploring hidden corners of Lisbon, looking
             for dolphins along the Tejo River, or embroidering, my other kind of
             coding.
+            <br />
+            <br />
+            I’m interested in joining a team where I can contribute and learn.
+            The technologies I've been working with are HTML5, CSS3, Javascript,
+            React, and Bootstrap. Click on the button below to see my C.V.
           </p>
           <div className="about-leaf">
             <img src="./images/about-me-leaf.svg" alt="" />

@@ -10,10 +10,10 @@ export default function Introduction() {
           <h1>I'm Laura Gómez</h1>
           <h2>FRONT-END DEVELOPER / DESIGNER / DIGITAL MARKETER</h2>
           <p>
-            I'm a front-end developer with a background in product design and
-            digital marketing. I’m here to help you bring your ideas to life by
-            building beautiful, functional, and responsive user interfaces with
-            the magic of coding.
+            I'm Laura, a front-end developer with experience in product design
+            and digital marketing. I'm here to help you bring ideas to life by
+            building responsive user interfaces. I live to make things, and I'm
+            only happy when they are beautiful and functional.
           </p>
           <div className="deco-brush"></div>
         </div>
