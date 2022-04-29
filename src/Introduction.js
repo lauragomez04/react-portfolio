@@ -7,17 +7,29 @@ export default function Introduction() {
       <div className="row">
         <ul className="contact-icons">
           <li>
-            <a href="/" target="_blank">
+            <a
+              href="https://github.com/lauragomez04"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="bi bi-github"></i>
             </a>
           </li>
           <li>
-            <a href="/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/lauragomezblanco/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="bi bi-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="/" target="_blank">
+            <a
+              href="mailto:lauragomez.codes@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="bi bi-envelope"></i>
             </a>
           </li>

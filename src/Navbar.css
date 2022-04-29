@@ -3,6 +3,10 @@
   font-family: var(--paragraph-font);
 }
 
+.Navbar .navbar-brand {
+  margin: 0px;
+}
+
 .Navbar .logo {
   color: var(--primary-color);
   max-width: 60px;

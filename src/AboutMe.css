@@ -1,5 +1,5 @@
 .AboutMe {
-  margin-top: 490px;
+  margin-top: 388px;
 }
 
 /* left column styles */
@@ -30,11 +30,11 @@
   display: block;
   height: 1px;
   position: absolute;
-  top: 135px;
+  top: 160px;
   right: 50%;
   transform-origin: right;
   transform: rotate(90deg);
-  width: 90px;
+  width: 120px;
 }
 
 .about-img {
@@ -47,7 +47,7 @@
 .email-link {
   position: relative;
   left: -115px;
-  top: 184px;
+  top: 140px;
 }
 
 /* right column styles */
@@ -98,8 +98,8 @@
 }
 
 @media (max-width: 960px) {
-  .about-title {
-    margin-top: 52px;
+  .AboutMe {
+    margin-top: 0px;
   }
 
   .about-button {
