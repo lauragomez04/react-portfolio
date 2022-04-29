@@ -26,7 +26,7 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-end"
+            className="collapse navbar-collapse justify-content-center"
             id="navbarNav"
           >
             <ul className="navbar-nav">
@@ -45,47 +45,6 @@ export default function Navbar() {
                   CONTACT
                 </a>
               </li>
-              <span className="vertical-line"></span>
-              <span className="d-flex flex-row navbar-icons">
-                <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="https://github.com/lauragomez04"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="bi bi-github github-icon"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="mailto:lauragomez.codes@gmail.com"
-                  >
-                    <i className="bi bi-envelope envelope-icon"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="https://www.linkedin.com/in/lauragomezblanco/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="bi bi-linkedin linkedin-icon"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="https://www.instagram.com/laugom0904/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="bi bi-instagram instagram-icon"></i>
-                  </a>
-                </li>
-              </span>
             </ul>
           </div>
         </div>

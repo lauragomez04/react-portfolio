@@ -1,5 +1,5 @@
 .Navbar .navbar {
-  background-color: var(--background-color) !important;
+  background-color: transparent !important;
   font-family: var(--paragraph-font);
 }
 
@@ -8,21 +8,18 @@
   max-width: 60px;
 }
 
-.Navbar a {
-  color: var(--primary-color) !important;
-  font-size: 14px;
-  letter-spacing: 2px;
+.nav-item {
+  padding-right: 44px;
+  padding-left: 44px;
 }
 
 .about,
-.projects {
-  margin-right: 35px;
-}
-
-.Navbar .vertical-line {
-  border-right: 1px solid var(--primary-color);
-  height: 28px;
-  margin: 0 35px 0 35px;
+.projects,
+.contact {
+  color: var(--primary-color) !important;
+  font-size: 14px;
+  letter-spacing: 2px;
+  position: relative;
 }
 
 .Navbar .github-icon,
@@ -34,12 +31,6 @@
 }
 
 /* hover effects */
-
-.about,
-.projects,
-.contact {
-  position: relative;
-}
 
 .about::after,
 .projects::after,
@@ -59,32 +50,10 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 250ms ease-in;
-  z-index: -1;
 }
 
 .about:hover::after,
 .projects:hover::after,
 .contact:hover::after {
   transform: scaleX(1);
-}
-
-.Navbar .github-icon:hover,
-.envelope-icon:hover,
-.linkedin-icon:hover,
-.instagram-icon:hover {
-  color: var(--primary-color);
-  transition: all 200ms ease-in-out;
-}
-
-@media (max-width: 960px) {
-  .Navbar .vertical-line {
-    display: none;
-  }
-
-  .Navbar .github-icon,
-  .envelope-icon,
-  .linkedin-icon,
-  .instagram-icon {
-    padding: 3px;
-  }
 }

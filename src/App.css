@@ -7,6 +7,13 @@
   --icon-color: #e79e85;
 }
 
+.App {
+  background-image: url(/public/images/hero-bgrd.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
 .container-fluid {
   padding-left: 55px !important;
   padding-right: 55px !important;

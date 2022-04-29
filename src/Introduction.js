@@ -5,24 +5,29 @@ export default function Introduction() {
   return (
     <section className="Introduction">
       <div className="row">
+        <ul className="contact-icons">
+          <li>
+            <a href="/" target="_blank">
+              <i className="bi bi-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/" target="_blank">
+              <i className="bi bi-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/" target="_blank">
+              <i className="bi bi-envelope"></i>
+            </a>
+          </li>
+        </ul>
         <div className="col-sm introduction-text">
-          <p className="greeting">¡HOLA!</p>
-          <h1>I'm Laura Gómez</h1>
-          <h2>FRONT-END DEVELOPER / DESIGNER / DIGITAL MARKETER</h2>
-          <p>
-            I'm Laura, a front-end developer with experience in product design
-            and digital marketing. I'm here to help you bring ideas to life by
-            building responsive user interfaces. I live to make things, and I'm
-            only happy when they are beautiful and functional.
-          </p>
-          <div className="deco-brush"></div>
-        </div>
-        <div className="col-sm img-portada text-center">
-          <img
-            className="img-fluid"
-            src="./images/laura-gomez-frontend-developer.png"
-            alt="Laura Gomez - Frontend Developer Portfolio"
-          />
+          <h1 className="greeting text-center">Hola, I'm Laura Gómez</h1>
+          <h2 className="text-center">
+            FRONT-END DEVELOPER, DESIGNER &amp; DIGITAL MARKETER
+          </h2>
+          <p className="cta text-center">GET TO KNOW ME</p>
         </div>
       </div>
     </section>
