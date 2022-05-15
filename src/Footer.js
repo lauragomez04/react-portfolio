@@ -43,6 +43,16 @@ export default function Footer() {
           </li>
         </ul>
       </div>
+      <p className="text-center mt-4 signature">
+        DESIGNED AND BUILT BY{" "}
+        <a
+          href="https://github.com/lauragomez04/react-portfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LAURA GÓMEZ
+        </a>
+      </p>
     </div>
   );
 }

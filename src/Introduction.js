@@ -34,12 +34,11 @@ export default function Introduction() {
             </a>
           </li>
         </ul>
-        <div className="col-sm introduction-text">
-          <h1 className="greeting text-center">Hola, I'm Laura Gómez</h1>
-          <h2 className="text-center">
-            FRONT-END DEVELOPER, DESIGNER &amp; DIGITAL MARKETER
-          </h2>
-          <p className="cta text-center">GET TO KNOW ME</p>
+        <div className="col-sm introduction-text text-center">
+          <h1 className="greeting">Hola, I'm Laura Gómez</h1>
+          <h2>FRONT-END DEVELOPER, DESIGNER &amp; DIGITAL MARKETER</h2>
+          <p className="cta">GET TO KNOW ME</p>
+          <span className="vertical-line"></span>
         </div>
       </div>
     </section>

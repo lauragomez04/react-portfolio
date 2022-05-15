@@ -1,3 +1,18 @@
+.introduction-text {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .introduction-text h1 {
   color: var(--primary-color);
   margin-bottom: 20px;
@@ -45,14 +60,22 @@
   margin-top: 140px;
 }
 
+.vertical-line {
+  border-left: 1px solid var(--primary-color);
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  height: 200px;
+}
+
 @media (max-width: 960px) {
   .introduction-text h1 {
-    font-size: 28px;
+    font-size: 52px;
     margin-top: 32px;
   }
 
   .introduction-text h2 {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: -8px;
     line-height: 150%;
   }
@@ -64,5 +87,9 @@
   .cta {
     font-size: 8px;
     margin-top: 28px;
+  }
+
+  .vertical-line {
+    height: 100px;
   }
 }

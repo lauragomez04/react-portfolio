@@ -8,24 +8,18 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <main className="container-fluid">
-        <Introduction />
+      <div className="hero">
+        <div className="container-fluid main-container">
+          <Navbar />
+          <Introduction />
+        </div>
+      </div>
+      <div className="container-fluid main-container">
         <AboutMe />
         <Projects />
-      </main>
+      </div>
       <footer>
         <Footer />
-        <p className="text-center mt-4 signature">
-          DESIGNED AND BUILT BY{" "}
-          <a
-            href="https://github.com/lauragomez04/react-portfolio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LAURA GÓMEZ
-          </a>
-        </p>
       </footer>
     </div>
   );

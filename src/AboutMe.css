@@ -1,5 +1,5 @@
 .AboutMe {
-  margin-top: 388px;
+  margin-top: 116px;
 }
 
 /* left column styles */
@@ -11,10 +11,9 @@
 }
 
 .email-link {
-  display: inline-block;
   color: var(--primary-color);
   font-family: var(--titles-font);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-decoration: none;
   transform: rotate(-90deg);
 }
@@ -34,7 +33,7 @@
   right: 50%;
   transform-origin: right;
   transform: rotate(90deg);
-  width: 120px;
+  width: 116px;
 }
 
 .about-img {
@@ -46,7 +45,7 @@
 .about-img,
 .email-link {
   position: relative;
-  left: -115px;
+  left: -120px;
   top: 140px;
 }
 
@@ -63,37 +62,21 @@
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 200%;
-  padding: 63px;
-}
-
-.about-leaf {
-  display: block;
-  margin-bottom: -98px;
-  position: relative;
-  bottom: 142px;
-  max-width: 100%;
-  margin: 0 auto;
-  width: 480px;
-  z-index: -1;
+  padding: 64px;
+  padding-bottom: 20px;
 }
 
 .about-button {
-  background-color: var(--primary-color) !important;
-  border-color: var(--primary-color) !important;
-  color: white !important;
+  color: var(--primary-color) !important;
   font-family: var(--paragraph-font);
-  font-size: 18px;
-  letter-spacing: 1px;
-  margin-bottom: -28px;
-  padding: 16px !important;
-  position: relative;
-  bottom: 232px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-top: 24px;
 }
 
 .about-button:hover {
-  background-color: var(--icon-color) !important;
-  border-color: var(--icon-color) !important;
-  color: white;
+  color: var(--icon-color) !important;
   transition: all 200ms ease-in-out;
 }
 
@@ -106,21 +89,23 @@
     bottom: 156px;
   }
 
-  .about-leaf {
-    width: 200px;
-    margin-right: -10px;
-    transform: rotate(-20deg);
-    z-index: -1;
+  .image-email {
+    background: none;
+  }
+
+  .email-link {
+    display: none;
+  }
+
+  .about-img {
+    left: 0;
+    top: 0;
   }
 }
 
 @media (max-width: 280px) {
   .about-text {
     padding: 28px;
-  }
-
-  .about-leaf {
-    display: none;
   }
 
   .about-button {

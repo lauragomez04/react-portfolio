@@ -45,6 +45,11 @@ export default function Navbar() {
                   CONTACT
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link resume" href="/">
+                  RESUME
+                </a>
+              </li>
             </ul>
           </div>
         </div>
