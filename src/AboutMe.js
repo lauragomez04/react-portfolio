@@ -44,12 +44,12 @@ export default function AboutMe() {
             <br />
             Technologies I've been working with are HTML5, CSS3, Javascript,
             React, and Bootstrap.
-            <a href="#projects" className="btn p-0 about-button">
-              CHECK OUT MY PROJECTS
-              <span className="ps-2">
+            <p className="about-cta">
+              CHECK OUT MY PROJECTS{" "}
+              <div className="arrow">
                 <i className="bi bi-arrow-down"></i>
-              </span>
-            </a>
+              </div>
+            </p>
           </p>
         </div>
       </div>

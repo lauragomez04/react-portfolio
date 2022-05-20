@@ -46,7 +46,12 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link resume" href="./resume.pdf">
+                <a
+                  className="nav-link resume"
+                  href="./resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   RESUME
                 </a>
               </li>
