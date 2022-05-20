@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <section className="AboutMe" id="about">
       <div className="row">
-        <div className="col-sm">
+        <div className="col-lg">
           <div className="d-flex align-items-center image-email">
             <a className="email-link" href="mailto:lauragomez.codes@gmail.com">
               lauragomez.codes@gmail.com
@@ -17,7 +17,7 @@ export default function AboutMe() {
             />
           </div>
         </div>
-        <div className="col-sm">
+        <div className="col-lg">
           <h2 className="text-center about-title title">About Me</h2>
           <p className="about-text">
             I'm Laura, a front-end developer with experience in product design

@@ -31,14 +31,6 @@
   position: relative;
 }
 
-.Navbar .github-icon,
-.envelope-icon,
-.linkedin-icon,
-.instagram-icon {
-  color: #e79e85;
-  font-size: 14px;
-}
-
 /* hover effects */
 
 .about::after,
@@ -67,4 +59,14 @@
 .contact:hover::after,
 .resume:hover::after {
   transform: scaleX(1);
+}
+
+/* mobile */
+
+.navbar-toggler {
+  border-color: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }

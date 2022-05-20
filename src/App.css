@@ -7,19 +7,7 @@
   --icon-color: #e79e85;
 }
 
-.hero {
-  background-image: url(/public/images/hero-bgrd.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
-
-.main-container {
-  padding-left: 55px !important;
-  padding-right: 55px !important;
-}
-
-/* styles for main titles */
+/* global titles */
 
 .title {
   color: var(--primary-color);
@@ -51,6 +39,20 @@
   transition: all 200ms ease-in-out;
 }
 
+/* hero styles & animation */
+
+.main-container {
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+}
+
+.hero {
+  background-image: url(/public/images/hero-bgrd.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
 .hero {
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
@@ -66,9 +68,11 @@
   }
 }
 
+/* responsive */
+
 @media (max-width: 960px) {
-  .container-fluid {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+  .main-container {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
   }
 }

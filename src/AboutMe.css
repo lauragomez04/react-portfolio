@@ -99,11 +99,7 @@
 
 @media (max-width: 960px) {
   .AboutMe {
-    margin-top: 0px;
-  }
-
-  .about-button {
-    bottom: 156px;
+    margin-top: 72px;
   }
 
   .image-email {
@@ -117,6 +113,10 @@
   .about-img {
     left: 0;
     top: 0;
+  }
+
+  .about-text {
+    padding: 44px;
   }
 }
 

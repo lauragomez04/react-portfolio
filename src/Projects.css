@@ -84,3 +84,9 @@
   line-height: 200%;
   margin-top: 20px;
 }
+
+@media (max-width: 960px) {
+  .Projects .projects-heading {
+    margin-top: 72px;
+  }
+}

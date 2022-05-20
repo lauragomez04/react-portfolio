@@ -73,11 +73,6 @@ export default function ProjectsModal(props) {
                     <p className="modal-text">{props.data.stack}</p>
                   </div>
                 </div>
-                <div className="row mt-4">
-                  <div className="col-sm">
-                    <h4>Lessons Learned</h4>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="modal-footer">
