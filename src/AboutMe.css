@@ -112,13 +112,15 @@
     display: none;
   }
 
+  .about-text {
+    padding: 44px;
+  }
+}
+
+@media (max-width: 540px) {
   .about-img {
     left: 0;
     top: 0;
-  }
-
-  .about-text {
-    padding: 44px;
   }
 }
 
