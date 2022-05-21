@@ -85,6 +85,8 @@
   margin-top: 20px;
 }
 
+/* responsive */
+
 @media (max-width: 960px) {
   .Projects .projects-heading {
     margin-top: 72px;

@@ -54,6 +54,7 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 250ms ease-in;
+  z-index: -1;
 }
 
 .about:hover::after,

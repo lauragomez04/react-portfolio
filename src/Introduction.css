@@ -59,6 +59,8 @@
   height: 200px;
 }
 
+/* responsive */
+
 @media (max-width: 960px) {
   .introduction-text h1 {
     font-size: 52px;

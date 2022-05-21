@@ -39,6 +39,8 @@
   top: 68px;
 }
 
+/* responsive */
+
 @media (max-width: 960px) {
   .background-image {
     display: none;

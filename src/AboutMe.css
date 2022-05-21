@@ -97,6 +97,8 @@
   }
 }
 
+/* responsive */
+
 @media (max-width: 960px) {
   .AboutMe {
     margin-top: 72px;

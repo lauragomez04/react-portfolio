@@ -40,7 +40,8 @@ export default function AboutMe() {
             <br />
             When I'm not coding, I'm exploring hidden corners of Lisbon, looking
             for dolphins along the Tejo River, or embroidering, my other kind of
-            coding. <br />
+            coding.
+            <br />
             <br />
             Technologies I've been working with are HTML5, CSS3, Javascript,
             React, and Bootstrap.
