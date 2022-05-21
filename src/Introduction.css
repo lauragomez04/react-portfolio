@@ -1,3 +1,5 @@
+/* icon styles */
+
 .Introduction a {
   color: var(--icon-color);
 }
@@ -21,6 +23,8 @@
   top: 176px;
   z-index: 100;
 }
+
+/* text styles */
 
 .introduction-text h1 {
   color: var(--primary-color);
@@ -72,8 +76,8 @@
   }
 
   .cta {
-    font-size: 8px;
-    margin-top: 28px;
+    font-size: 12px;
+    margin-top: 36px;
   }
 
   .vertical-line {

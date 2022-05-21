@@ -12,6 +12,8 @@
   margin: 0px;
 }
 
+/* navbar items */
+
 .Navbar .logo {
   color: var(--primary-color);
   max-width: 60px;
