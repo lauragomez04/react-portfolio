@@ -112,6 +112,12 @@
     display: none;
   }
 
+  .about-img {
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+  }
+
   .about-text {
     padding: 44px;
   }

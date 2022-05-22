@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="row">
         {projectsData.map((project, index) => {
           return (
-            <div className="col-sm project" key={index}>
+            <div className="col-md project" key={index}>
               <h3 className="text-center number">{project.number}</h3>
 
               <img
