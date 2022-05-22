@@ -13,7 +13,7 @@ export default function AboutMe() {
             <img
               className="img-fluid about-img"
               src="./images/laura-gomez-frontend-developer.png"
-              alt="about me"
+              alt="Laura Gómez Front-End Developer"
             />
           </div>
         </div>

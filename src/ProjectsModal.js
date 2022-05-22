@@ -27,14 +27,14 @@ export default function ProjectsModal(props) {
             <div className="modal-body p-0">
               <div className="container-fluid modal-container p-4">
                 <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-lg-6">
                     <img
                       className="img-fluid modal-image pe-2 mb-4"
                       src={props.data.cover}
                       alt={props.data.title}
                     />
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col-lg-6">
                     <p className="modal-text">
                       {props.data.description} <br />
                       <br />
@@ -59,16 +59,16 @@ export default function ProjectsModal(props) {
                   </div>
                 </div>
                 <div className="row mt-4">
-                  <div className="col-sm-6">
+                  <div className="col-lg-6">
                     <h4>Purpose</h4>
                     <p className="modal-text pe-2">{props.data.purpose}</p>
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col-lg-6">
                     <img className="img-fluid" src={props.data.image} alt="" />
                   </div>
                 </div>
                 <div className="row mt-4">
-                  <div className="col-sm">
+                  <div className="col">
                     <h4>Web Stack</h4>
                     <p className="modal-text">{props.data.stack}</p>
                   </div>

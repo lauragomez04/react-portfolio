@@ -11,7 +11,7 @@ export default function Navbar() {
               className="logo img-fluid"
               src="./images/laura-gomez-frontend-developer-logo.svg"
               width="300"
-              alt="laura gomez logo"
+              alt="Laura Gómez personal logo"
             />
           </a>
           <button
