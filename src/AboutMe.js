@@ -44,7 +44,7 @@ export default function AboutMe() {
             <br />
             <br />
             Technologies I've been working with are HTML5, CSS3, Javascript,
-            React, and Bootstrap.
+            React, Gatsby and Bootstrap.
             <br />
             <br />
             <span className="about-cta">
